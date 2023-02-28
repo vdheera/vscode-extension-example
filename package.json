@@ -9,7 +9,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
@@ -18,7 +20,11 @@
     }, { 
       "command": "helloworld.helloWorld2",
       "title": "Display Current Time"
+    }, { 
+      "command": "helloworld.helloWorld3",
+      "title": "Display Current Text"
     }
+    
     ]
   },
   "scripts": {
